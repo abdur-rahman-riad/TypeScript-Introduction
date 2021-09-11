@@ -1,4 +1,10 @@
 console.log("Hello TypeScript. This is First Program");
-const firstNumber = 10;
-const secondNumber = 10;
-console.log(firstNumber + secondNumber);
+/* let myNumber = 20;
+myNumber = 50;
+console.log("My Number = ", myNumber); */
+
+let studentID: number = 205;
+let studentName: string = "Riad Abdur Rahman";
+let isMale: boolean = true;
+
+console.log("Student Name: " + studentName + ", Student ID: " + studentID + ", is Male? " + isMale);
